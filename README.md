@@ -149,11 +149,14 @@ Each role receives a customized dashboard and access to role-specific features.
 │ Notifications               │
 │ Support Records             │
 └─────────────────────────────┘
+```
 
 External Services:
 Stripe | AWS S3 | Email | SMS | Push Notifications
 
 Repository Structure
+```text
+
 eventify-event-management-platform/
 │
 ├── backend/
@@ -195,8 +198,8 @@ eventify-event-management-platform/
 │
 ├── .gitignore
 └── README.md
-
-Backend Architecture
+```
+## Backend Architecture
 
 The backend follows a modular architecture:
 
@@ -207,7 +210,7 @@ Services manage notifications, communication, and real-time socket functionality
 Utilities support email, SMS, uploads, PDF generation, AWS S3, and push notifications.
 Prisma provides database access and schema management.
 
-Frontend Architecture
+## Frontend Architecture
 
 The frontend uses the Next.js App Router and reusable React components.
 
@@ -226,7 +229,7 @@ Role-based access control
 
 React Context is used to manage authentication, application data, users, and Socket.IO connections.
 
-Installation
+## Installation
 Prerequisites
 
 Install the following before running the application:
@@ -303,7 +306,7 @@ Open the application in your browser:
 http://localhost:3000
 
 
-API Documentation
+## API Documentation
 
 Backend API documentation is available in:
 backend/docs/api-docs.yaml
@@ -326,13 +329,13 @@ Uploads
 Communication services
 
 
-Database Management
+## Database Management
 
 Open Prisma Studio to inspect and manage database records:
 cd backend
 npx prisma studio
 
-Security
+## Security
 
 The application includes:
 
@@ -348,7 +351,7 @@ Payment processing through Stripe
 Sensitive credentials and environment files are excluded from Git through .gitignore.
 
 
-CI/CD
+## CI/CD
 
 The frontend and backend include separate Jenkins pipeline files.
 
@@ -364,7 +367,7 @@ Testing
 Deployment
 
 
-Future Enhancements
+## Future Enhancements
 Dockerize the frontend, backend, and PostgreSQL database
 Add automated unit and integration testing
 Add GitHub Actions
@@ -376,7 +379,7 @@ Improve accessibility
 Add multilingual support
 Add recommendation features for personalized event discovery
 
-Project Highlights
+## Project Highlights
 
 This project demonstrates experience with:
 
@@ -393,14 +396,14 @@ Secure application configuration
 Scalable frontend and backend architecture
 
 
-Author
+## Author
 
 Anitha Raj Bale
 
 GitHub: Anitharaj31
 Location: New York, USA
 
-License
+## License
 
 This project is intended for educational and portfolio purposes.
 
