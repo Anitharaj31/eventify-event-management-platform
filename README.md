@@ -395,6 +395,11 @@ Cloud storage integration
 Secure application configuration
 Scalable frontend and backend architecture
 
+## Acknowledgment
+
+Eventify was developed as a collaborative Master's capstone project. The team followed Agile practices using Jira for backlog management, user stories, sprint planning, task tracking, and progress monitoring, while GitHub was used for version control and code collaboration.
+
+This repository is maintained as a personal portfolio copy to demonstrate the technologies used and the areas of the project to which I contributed.
 
 ## Author
 
